@@ -17,3 +17,11 @@ tasty_bytes:
       database: SANDBOX_SWAYAM
       schema: DLH_TEST_MART
       warehouse: SWAYAM_WH
+    staging:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: DEVELOPER_ROLE
+      database: SANDBOX_SWAYAM
+      schema: DLH_TEST_MART
+      warehouse: SWAYAM_WH
